@@ -18,7 +18,7 @@ export default function Sidenav() {
         {navData.map(item =>{
             return <NavLink key={item.id} className={styles.sideitem} to={item.link}>
             {item.icon}
-            <span className={open?styles.linkText:styles.linkTextClosed}>{item.text}</span>
+            <span className={styles.linkText}>{item.text}</span>
         </NavLink>
         })}
     </div>

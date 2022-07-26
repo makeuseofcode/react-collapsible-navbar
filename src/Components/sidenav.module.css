@@ -17,17 +17,13 @@
     cursor: pointer;
     color: #B2BAC2;
     text-decoration: none;
+    overflow: hidden;
     /* background-color: #3A4246; */
 }
 .linkText {
     padding-left: 16px;
 }
-.linkTextClosed {
-    composes: linkText;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0;
-}
+
 .sideitem:hover {
     background-color: #244f7d1c;
 
